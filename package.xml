@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>simple-bazel-install</name>
+  <version>0.0.0</version>
+  <description>Delphyne</description>
+  <maintainer email="clalancette@osrfoundation.org">Chris Lalancette</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>bazel</buildtool_depend>
+
+  <export>
+    <build_type>bazel</build_type>
+  </export>
+</package>
