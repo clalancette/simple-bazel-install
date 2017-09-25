@@ -1,7 +1,9 @@
 #include <iostream>
 
+#include "hello-lib.hh"
+
 int main(void)
 {
-  std::cout << "Hello World" << std::endl;
+  std::cout << get_hello_world() << std::endl;
   return 0;
 }
