@@ -1,5 +1,7 @@
 repositories:
   simple-bazel-install  : { type: 'git', url: 'https://github.com/clalancette/simple-bazel-install.git',   version: 'master'    }
+  ament/ament_cmake     : { type: 'git', url: 'https://github.com/ament/ament_cmake.git',                  version: 'master'    }
+  ament/ament_lint      : { type: 'git', url: 'https://github.com/ament/ament_lint.git',                   version: 'master'    }
   ament/ament_tools     : { type: 'git', url: 'https://github.com/ament/ament_tools.git',                  version: 'bazel'     }
   ament/ament_package   : { type: 'git', url: 'https://github.com/ament/ament_package.git',                version: 'master'    }
   ament/osrf_pycommon   : { type: 'git', url: 'https://github.com/osrf/osrf_pycommon.git',                 version: 'master'    }
